@@ -1,8 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To do list project
+# Leaderboard project
 
-This "To-do" list allows you to mark prioity tasks listed by the user as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!
+A leaderboard webapp. Takes a player's name and score and adds to API database. Displays API database items.
+
+Competencies:
+
+- Using callbacks and promises.
+- Demonstrate how to use proper ES6 syntax.
+- Using ES6 modules to write modular JavaScript.
+- Using webpack to bundle JavaScript.
+- Sending and receiving data from an API.
+- Using API documentation.
+- Understanding and using JSON.
+- Making JavaScript code asynchronous.
 
 ## Built With
 
@@ -13,7 +24,7 @@ This "To-do" list allows you to mark prioity tasks listed by the user as complet
 
 Technologies used
 -  GitHub
-
+-  Webpack
 
 ## Instuctions to set up project locally
  - Download zip file of the project

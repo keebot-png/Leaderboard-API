@@ -147,7 +147,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst createGame = async (url, name, score) => {\n  fetch(url, {\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json; charset=UTF-8',\n    },\n    body: JSON.stringify({\n      user: name,\n      score,\n    }),\n  })\n    .then(response => response.json())\n    .then(json => json);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createGame);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/createGame.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst createGame = async (url, name, score) => {\n  fetch(url, {\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json; charset=UTF-8',\n    },\n    body: JSON.stringify({\n      user: name,\n      score,\n    }),\n  })\n    .then((response) => response.json())\n    .then((json) => json);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createGame);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/createGame.js?");
 
 /***/ }),
 
@@ -158,7 +158,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getScores = async (url) => fetch(url, {\n  method: 'GET',\n  headers: { 'Content-Type': 'application/json' },\n})\n  .then(response => response.json())\n  .then(response => response.result);\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getScores);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/getGame.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst getScores = async (url) => fetch(url, {\n  method: 'GET',\n  headers: { 'Content-Type': 'application/json' },\n})\n  .then((response) => response.json())\n  .then((response) => response.result);\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getScores);\n\n//# sourceURL=webpack://webpack-demo/./src/modules/getGame.js?");
 
 /***/ }),
 

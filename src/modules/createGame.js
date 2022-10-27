@@ -9,8 +9,8 @@ const createGame = async (url, name, score) => {
       score,
     }),
   })
-    .then((response) => response.json())
-    .then((json) => json);
+    .then(response => response.json())
+    .then(json => json);
 };
 
 export default createGame;
